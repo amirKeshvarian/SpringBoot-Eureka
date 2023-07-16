@@ -1,0 +1,8 @@
+hi
+first run EurekaServer and then run findPersonWithCar and ...
+you can request on :
+
+for save person : http://localhost:9909/execute/savePerson.do?name=daryoush&family=abdoulahi
+for save car : http://localhost:9909/execute/saveCar.do?model=benz&personId=1
+for find person with car list : http://localhost:9909/execute/findPersonWithCars.do?personId=1
+	

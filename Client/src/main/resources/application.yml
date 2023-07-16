@@ -1,0 +1,15 @@
+server:
+  port: 9909
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:9001/eureka}
+    registryFetchIntervalSeconds: 1
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    #preferIpAddress: true
+
+spring:
+  cloud:
+    config:
+      enabled: false
